@@ -1,0 +1,17 @@
+{
+  "name": "studio-pixel-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Claude backend proxy for the Studio Pixel dashboard",
+  "scripts": {
+    "start": "node start-all.mjs",
+    "start:backend": "node ollama-server.js",
+    "start:claude": "node server.js",
+    "watch": "node cowork-watch.mjs",
+    "reset-db": "node reset.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0"
+  }
+}

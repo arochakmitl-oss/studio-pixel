@@ -1,0 +1,15 @@
+{
+  "_note": "Skill ของแต่ละ character = ไฟล์ .md จริงของคุณ (อ้างตาม path ด้านล่าง). แก้ไข/เพิ่มได้ตามใจ แล้วรีเฟรช dashboard. key = id ตัวละคร (ux=Pixel, lead=Cora, coord=Milo, butler=Otto)",
+  "ux": [
+    "/ABSOLUTE/PATH/TO/your-ux-skill.md"
+  ],
+  "lead": [
+    "/ABSOLUTE/PATH/TO/your-lead-skill.md"
+  ],
+  "coord": [
+    "/ABSOLUTE/PATH/TO/your-coord-skill.md"
+  ],
+  "butler": [
+    "/ABSOLUTE/PATH/TO/your-butler-skill.md"
+  ]
+}

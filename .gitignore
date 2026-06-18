@@ -1,0 +1,27 @@
+# secrets — NEVER commit
+server/secret.local.json
+.env
+.env.local
+*.pem
+
+# your real skill-file paths (use skills.example.json as template)
+server/skills.json
+
+# your real work data / monitored output
+server/data/
+server/deliverables/
+*.db
+*.db-shm
+*.db-wal
+monitor-state.json
+
+# deps & logs
+node_modules/
+*.log
+npm-debug.log*
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/

@@ -1,0 +1,5 @@
+# Vercel = static demo of the dashboard UI only.
+# The local monitor backend can't run in the cloud (it reads your Mac), so don't deploy it.
+server/
+docs/
+README.md
